@@ -57,19 +57,21 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 * **Step 2** - Create a central repository of metadata of all the data assets in your project.
   
   <p align="center">
-  <img width="550" height="100" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/c0da62a5-a9ca-46d2-b171-619814ab02c5">
+  <img width="550" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/c0da62a5-a9ca-46d2-b171-619814ab02c5">
   <h6 align = "center" > Source: Author </h6>
   </p>
 
   It is important to understand the structure of each data asset in your project. AWS crawler is a service that rund iteratively through each data source and infers their schema, structure and formats. It stores all this information in AWS Glue Catalog which is composed of databases and tables that provide a logical structure for storing and managing all the metadata. AWS Glue tables also store essential metadata such as column names, data types, and partition keys.
 
-* **Step 3** - Create a AWS Lambda function that process any new incoming data and stores it in cleansed Amazon S3 buckets.
+* **Step 3** - Create a AWS Lambda function that processes any new incoming data and stores it in cleansed Amazon S3 buckets.
 
   <p align="center">
-  <img width="550" height="400" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/28aaf2c7-b85c-47e6-93b5-e9516f1889ce">
+  <img width="550" height="350" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/28aaf2c7-b85c-47e6-93b5-e9516f1889ce">
   <h6 align = "center" > Source: Author </h6>
   </p>
-  
+
+  AWS Lambda allows serverless compute functionality to run code in supported languages to process data according to business requirements. In our case, we will convert our data format from .json to parquet and store it new bucket. Parquet is an     
+  efficientt data format than csv and json and is consistent across the data pipeline. It also creates updated data catalog in AWS Glue Catalog with updated schemas and column datatypes. 
 
   
 
