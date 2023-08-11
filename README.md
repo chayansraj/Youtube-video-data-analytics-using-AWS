@@ -79,13 +79,21 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   <h6 align = "center" > Source: Author </h6>
   </p>
 
-  Since we will not be manually process new data every time, it is efficient to create ETL jobs that automate the data processing and data delivery task to the stakeholder. In our case, we join the two dataframes on category_id and id column and create a final cleaned data ready for analysis. The script has been uploaded in file section.
+  Since we will not be manually processing new data every time, it is efficient to create ETL jobs that automate the data processing and data delivery task to the stakeholder. In our case, we join the two dataframes on category_id and id column and create a final cleaned data ready for analysis. The script has been uploaded in the file section.
 
   <p align="center">
-  <img width="550" height="550" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/b6764948-478c-4d54-a435-ab924c8dfea4">
+  <img width="650" height="500" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/b6764948-478c-4d54-a435-ab924c8dfea4">
   <h6 align = "center" > Source: Author </h6>
   </p>
       
+* **Step 5** - Create a dashboard to visualize and answer questions according to business requirements or perform data analytics using AWS Athena.
+  
+    <p align="center">
+  <img width="700" height="700" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/1218e8f8-2a53-46e0-adb4-d6aecb8cb219">
+  <h6 align = "center" > Source: Author </h6>
+  </p>
+
+  Quicksight can be used as a business intelligence tool to deliver easy-to-understand insights to the people who you work with, wherever they are. Many other BI tools can be integrated with the final cleaned dataset. 
 
   
 
