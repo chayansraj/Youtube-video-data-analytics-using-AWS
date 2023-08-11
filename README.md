@@ -16,7 +16,7 @@ The architecture (Data flow) used in this project uses different AWS functionali
 
 <p align="center">
   <img width="950" height="550" src="https://github.com/chayansraj/Youtube-data-analytics-using-AWS/assets/22219089/c7c91075-5578-47ce-bf1c-2ded09a8ba0e">
-  <h6 align = "center" > Source: google </h6>
+  <h6 align = "center" > Source: Author </h6>
 </p>
 
 # Dataset Used 
@@ -44,4 +44,10 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 # Implementation
 
-* Step 1 - Ingest data from Kaggle to Amazon S3 buckets.
+* Step 1 - Ingest data into Amazon S3 buckets from Kaggle.
+  <p align="center">
+  <img width="300" height="250" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/1dcad98f-c88e-4f67-86b6-0b1e121d058f">
+  <h6 align = "center" > Source: Author </h6>
+</p>
+  
+
