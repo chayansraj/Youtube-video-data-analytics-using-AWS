@@ -44,11 +44,21 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 # Implementation
 
-* Step 1 - Ingest data into Amazon S3 buckets from Kaggle.
-  The first step includes exporting data from Kaggle to Amazon S3 buckets. There are two sets of files for each region namely csv and json file. 
+* **Step 1** - Ingest data into Amazon S3 buckets from Kaggle.
+  The first step includes exporting data from Kaggle to Amazon S3 buckets. 
+  
   <p align="center">
-  <img width="800" height="200" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/53462cd6-c191-4827-893c-2ae9f47ca401">
+  <img width="700" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/53462cd6-c191-4827-893c-2ae9f47ca401">
   <h6 align = "center" > Source: Author </h6>
-</p>
+  </p>
+
+  There are two sets of files for each region namely csv and json file. The files are stored as S3 objects inside buckets in regions of your choice. The objects can be accessed anywhere with the help of a unique S3 URI (Uniform Resource Identifier).
+
+* **Step 2** - Create a central repository of metadata of all the data assets of your project.
+  <p align="center">
+  <img width="700" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/c0da62a5-a9ca-46d2-b171-619814ab02c5">
+  <h6 align = "center" > Source: Author </h6>
+  </p>
+
   
 
