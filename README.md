@@ -15,7 +15,7 @@ This project aims to leverage Amazon Web Services to create a youtube trending v
 The architecture (Data flow) used in this project uses different AWS functionalities.
 
 <p align="center">
-  <img width="1000" height="600" src="https://github.com/chayansraj/Youtube-data-analytics-using-AWS/assets/22219089/c7c91075-5578-47ce-bf1c-2ded09a8ba0e">
+  <img width="950" height="550" src="https://github.com/chayansraj/Youtube-data-analytics-using-AWS/assets/22219089/c7c91075-5578-47ce-bf1c-2ded09a8ba0e">
   <h6 align = "center" > Source: google </h6>
 </p>
 
@@ -26,6 +26,11 @@ The dataset contains daily statistics for trending YouTube videos with up to 200
   2. Each video is also associated with its video category which is stored in a separate .json file that varies between regions.
 
 Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
+
+<p align="center">
+  <img width="400" height="450" src="https://github.com/chayansraj/Youtube-data-analytics-using-AWS/assets/22219089/f9d19a32-77a0-486b-aa9e-c88cfb046051">
+  <h6 align = "center" > Source: google </h6>
+</p>
 
 # Implementation
 
