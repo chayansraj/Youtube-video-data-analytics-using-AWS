@@ -18,3 +18,7 @@ The architecture (Data flow) used in this project uses different AWS functionali
   <img width="1000" height="600" src="https://github.com/chayansraj/Youtube-data-analytics-using-AWS/assets/22219089/c7c91075-5578-47ce-bf1c-2ded09a8ba0e">
   <h6 align = "center" > Source: google </h6>
 </p>
+
+# Implementation
+
+* Step 1 - 
