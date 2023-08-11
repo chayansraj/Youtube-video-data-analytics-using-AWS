@@ -48,7 +48,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   The first step includes exporting data from Kaggle to Amazon S3 buckets. 
   
   <p align="center">
-  <img width="600" height="100" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/0d472672-0bd2-48f8-b6b2-8287538edbdf">
+  <img width="550" height="100" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/0d472672-0bd2-48f8-b6b2-8287538edbdf">
   <h6 align = "center" > Source: Author </h6>
   </p>
 
