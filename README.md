@@ -40,7 +40,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 3. **AWS Glue**: It is a scalable, serverless data integration service that can be used to discover, prepare, and combine data for application development, analytics, and machine learning. AWS Glue consolidates major data integration capabilities into a single service. It also provides DataOps tools to effortlessly author, run jobs, and implement business workflows.<br />
 4. **AWS Lambda**: It is a compute service that provides a runtime environment letting you run code without provisioning or managing servers. The code is written in Lambda functions and is set to trigger as per the use case and is scaled as per the demand.<br />
 5. **AWS Athena**: It is a query service that allows easy analysis of data stored directly in Amazon S3 using standard SQL. Amazon Athena also makes it easy to interactively run data analytics using Apache Spark without having to plan for, configure, or manage resources.
-6. **AWS QuickSight**: It is a cloud-based Business Intelligence service that can be used to deliver easy-to-use insights and answer questions to the stakeholders. There are a lot of data integration options where in a single data dashboard, QuickSight can include AWS data, third-party data, big data, spreadsheet data, SaaS data, B2B data, and more.
+6. **AWS QuickSight**: It is a cloud-based Business Intelligence service that can be used to deliver easy-to-use insights and answer questions to the stakeholders. There are a lot of data integration options wherein a single data dashboard, QuickSight can include AWS data, third-party data, big data, spreadsheet data, SaaS data, B2B data, and more.
 
 # Implementation
 
@@ -48,17 +48,20 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   The first step includes exporting data from Kaggle to Amazon S3 buckets. 
   
   <p align="center">
-  <img width="600" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/53462cd6-c191-4827-893c-2ae9f47ca401">
+  <img width="600" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/0d472672-0bd2-48f8-b6b2-8287538edbdf">
   <h6 align = "center" > Source: Author </h6>
   </p>
 
   There are two sets of files for each region namely csv and json file. The files are stored as S3 objects inside buckets in regions of your choice. The objects can be accessed anywhere with the help of a unique S3 URI (Uniform Resource Identifier).
 
 * **Step 2** - Create a central repository of metadata of all the data assets of your project.
+  
   <p align="center">
   <img width="700" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/c0da62a5-a9ca-46d2-b171-619814ab02c5">
   <h6 align = "center" > Source: Author </h6>
   </p>
+
+  It is important to understand the structure of each data asset in your project. AWS crawler is a service that rund iteratively through each data source and infers their schema, structure and formats. It stores all this information in AWS Glue Catalog which is composed of databases and tables that provide a logical structure for storing and managing all the metadata.
 
   
 
