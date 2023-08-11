@@ -89,7 +89,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 * **Step 5** - Create a dashboard to visualize and answer questions according to business requirements or perform data analytics using AWS Athena.
   
     <p align="center">
-  <img width="700" height="700" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/1218e8f8-2a53-46e0-adb4-d6aecb8cb219">
+  <img width="800" height="700" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/1218e8f8-2a53-46e0-adb4-d6aecb8cb219">
   <h6 align = "center" > Source: Author </h6>
   </p>
 
