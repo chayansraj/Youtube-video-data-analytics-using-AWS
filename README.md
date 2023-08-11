@@ -70,8 +70,22 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   <h6 align = "center" > Source: Author </h6>
   </p>
 
-  AWS Lambda allows serverless compute functionality to run code in supported languages to process data according to business requirements. In our case, we will convert our data format from .json to parquet and store it new bucket. Parquet is an     
-  efficientt data format than csv and json and is consistent across the data pipeline. It also creates updated data catalog in AWS Glue Catalog with updated schemas and column datatypes. 
+  AWS Lambda allows serverless compute functionality to run code in python (in this case) to process data according to business requirements. In our case, we will convert our data format from .json to parquet and store it new bucket. Parquet is an efficient data format than csv and json and is consistent across the data pipeline. It also creates updated data catalog in AWS Glue Catalog with updated schemas and column datatypes.
+
+* **Step 4** - Create ETL jobs to extract data from S3 buckets, apply join transformation and load for further data analysis.
+
+  <p align="center">
+  <img width="550" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/bff402b9-c8bb-4d42-a1f2-2246c83b1b3d">
+  <h6 align = "center" > Source: Author </h6>
+  </p>
+
+  Since we will not be manually process new data every time, it is efficient to create ETL jobs that automate the data processing and data delivery task to the stakeholder. In our case, we join the two dataframes on category_id and id column and create a final cleaned data ready for analysis. The script has been uploaded in file section.
+
+  <p align="center">
+  <img width="550" height="550" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/b6764948-478c-4d54-a435-ab924c8dfea4">
+  <h6 align = "center" > Source: Author </h6>
+  </p>
+      
 
   
 
