@@ -11,14 +11,6 @@ This project aims to leverage Amazon Web Services to create a youtube trending v
 5. Data Reporting/Analytics - Create dashboards to answer questions and communicate insights to the Stakeholders.
 
 
-# Data Architecture
-
-The architecture (Data flow) used in this project uses different AWS functionalities.
-
-<p align="center">
-  <img width="950" height="550" src="https://github.com/chayansraj/Youtube-data-analytics-using-AWS/assets/22219089/c7c91075-5578-47ce-bf1c-2ded09a8ba0e">
-  <h6 align = "center" > Source: Author </h6>
-</p>
 
 # Dataset Used 
 The dataset contains daily statistics for trending YouTube videos with up to 200 trending videos per day. It includes several months of data on daily trending YouTube videos. Major nations covered in this dataset are US, GB, DE, CA, JP, IN, and FR regions (USA, Great Britain, Germany, Canada, Japan, India, and France, respectively). 
