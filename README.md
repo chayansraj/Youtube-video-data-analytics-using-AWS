@@ -3,6 +3,8 @@ This project aims to leverage Amazon Web Services to create a youtube trending v
 
 
 
+
+
 # Project Goals
 
 1. Data Ingestion - Create a data ingestion pipeline to extract new incoming data into the AWS data lake.
