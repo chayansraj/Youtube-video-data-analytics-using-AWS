@@ -4,7 +4,6 @@ This project aims to leverage Amazon Web Services to create a youtube trending v
 
 
 # Project Goals
-
 1. Data Ingestion - Create a data ingestion pipeline to extract new incoming data into the AWS data lake.
 2. Data Lake - Create a centralized repository to store data from multiple sources and of different formats.
 3. Data ETL Jobs - Create Extract, Transform, and Load jobs to preprocess raw data into usable proper versions.
