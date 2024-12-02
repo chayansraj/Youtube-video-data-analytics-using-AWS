@@ -53,7 +53,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   <h6 align = "center" > Source: Author </h6>
   </p>
 
-  It is important to understand the structure of each data asset in your project. AWS crawler is a service that rund iteratively through each data source and infers their schema, structure and formats. It stores all this information in AWS Glue Catalog which is composed of databases and tables that provide a logical structure for storing and managing all the metadata. AWS Glue tables also store essential metadata such as column names, data types, and partition keys.
+  It is important to understand the structure of each data asset in your project. AWS crawler is a service that runs iteratively through each data source and infers their schema, structure and formats. It stores all this information in AWS Glue Catalog which is composed of databases and tables that provide a logical structure for storing and managing all the metadata. AWS Glue tables also store essential metadata such as column names, data types, and partition keys.
 
 * **Step 3** - Create a AWS Lambda function that processes any new incoming data and stores it in cleansed Amazon S3 buckets.
 
