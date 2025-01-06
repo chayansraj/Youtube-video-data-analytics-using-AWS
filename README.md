@@ -10,6 +10,7 @@ This project aims to leverage Amazon Web Services to create a youtube trending v
 5. Data Reporting/Analytics - Create dashboards to answer questions and communicate insights to the Stakeholders.
 
 
+
 # Dataset Used 
 The dataset contains daily statistics for trending YouTube videos with up to 200 trending videos per day. It includes several months of data on daily trending YouTube videos. Major nations covered in this dataset are US, GB, DE, CA, JP, IN, and FR regions (USA, Great Britain, Germany, Canada, Japan, India, and France, respectively). 
 * There are two parts to this dataset:
